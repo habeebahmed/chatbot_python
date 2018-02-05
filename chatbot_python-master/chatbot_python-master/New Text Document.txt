@@ -1,0 +1,16 @@
+csi
+image:https://scontent.fhyd2-1.fna.fbcdn.net/v/t1.0-1/c17.0.200.200/p200x200/1970462_444655782332330_315386017_n.jpg?oh=9b6fe2a547b438195a7e3b26f6ab3f22&oe=5A45090C
+page:https://www.facebook.com/csimjcet/
+
+ecell
+image:https://scontent.fhyd2-1.fna.fbcdn.net/v/t1.0-1/c17.0.200.200/p200x200/1970462_444655782332330_315386017_n.jpg?oh=9b6fe2a547b438195a7e3b26f6ab3f22&oe=5A45090C
+page:https://www.facebook.com/ECellMJCET/
+
+orators club:
+image:https://scontent.fhyd2-1.fna.fbcdn.net/v/t1.0-1/p200x200/20525910_159518324612318_8829131398016145674_n.jpg?oh=7c21526d92c66597a8b11aa0839bae5a&oe=5A775349
+page:https://www.facebook.com/oratorsclubmj/
+
+
+Robotics mjcet
+image:https://scontent.fhyd2-1.fna.fbcdn.net/v/t31.0-8/1658673_691040737585778_750601450_o.jpg?oh=54bd44c740a5cdacbadf3a195b89bb81&oe=5A84246D
+page:https://www.facebook.com/roboticsmjcet/

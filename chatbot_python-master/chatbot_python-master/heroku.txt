@@ -1,0 +1,106 @@
+C:\Users\Abc\Desktop\Facebook_ messenger_ bot>myenv\Scripts\activate
+
+(myenv) C:\Users\Abc\Desktop\Facebook_ messenger_ bot>heroku create
+Creating app... done, rocky-thicket-15411
+https://rocky-thicket-15411.herokuapp.com/ | https://git.heroku.com/rocky-thicket-15411.git
+
+(myenv) C:\Users\Abc\Desktop\Facebook_ messenger_ bot>
+
+(myenv) C:\Users\Abc\Desktop\Facebook_ messenger_ bot>git init
+Initialized empty Git repository in C:/Users/Abc/Desktop/Facebook_ messenger_ bot/.git/
+
+
+(myenv) C:\Users\Abc\Desktop\Facebook_ messenger_ bot>git add .
+
+(myenv) C:\Users\Abc\Desktop\Facebook_ messenger_ bot>git commit -m "initial commit"
+[master (root-commit) 4a91eaa] initial commit
+ Committer: habeeb ahmed <habeeb ahmed>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 6 files changed, 105 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 Procfile
+ create mode 100644 __pycache__/utils.cpython-36.pyc
+ create mode 100644 app.py
+ create mode 100644 requirements.txt
+ create mode 100644 utils.py
+
+(myenv) C:\Users\Abc\Desktop\Facebook_ messenger_ bo
+
+(myenv) C:\Users\Abc\Desktop\Facebook_ messenger_ bot>heroku git:remote -a rocky-thicket-15411
+set git remote heroku to https://git.heroku.com/rocky-thicket-15411.git
+
+(myenv) C:\Users\Abc\Desktop\Facebook_ messenger_ bot>git push heroku master
+Counting objects: 9, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (9/9), 2.30 KiB | 0 bytes/s, done.
+Total 9 (delta 0), reused 0 (delta 0)
+remote: Compressing source files... done.
+remote: Building source:
+remote:
+remote: -----> Python app detected
+remote: -----> Installing python-3.6.2
+remote: -----> Installing pip
+remote: -----> Installing requirements with pip
+remote:        Collecting certifi==2017.7.27.1 (from -r /tmp/build_4a03d116ac7fd3497561eb06a07a5a88/requirements.txt (line 1))
+remote:          Downloading certifi-2017.7.27.1-py2.py3-none-any.whl (349kB)
+remote:        Collecting chardet==3.0.4 (from -r /tmp/build_4a03d116ac7fd3497561eb06a07a5a88/requirements.txt (line 2))
+remote:          Downloading chardet-3.0.4-py2.py3-none-any.whl (133kB)
+remote:        Collecting click==6.7 (from -r /tmp/build_4a03d116ac7fd3497561eb06a07a5a88/requirements.txt (line 3))
+remote:          Downloading click-6.7-py2.py3-none-any.whl (71kB)
+remote:        Collecting Flask==0.12.2 (from -r /tmp/build_4a03d116ac7fd3497561eb06a07a5a88/requirements.txt (line 4))
+remote:          Downloading Flask-0.12.2-py2.py3-none-any.whl (83kB)
+remote:        Collecting gunicorn==19.7.1 (from -r /tmp/build_4a03d116ac7fd3497561eb06a07a5a88/requirements.txt (line 5))
+remote:          Downloading gunicorn-19.7.1-py2.py3-none-any.whl (111kB)
+remote:        Collecting idna==2.6 (from -r /tmp/build_4a03d116ac7fd3497561eb06a07a5a88/requirements.txt (line 6))
+remote:          Downloading idna-2.6-py2.py3-none-any.whl (56kB)
+remote:        Collecting itsdangerous==0.24 (from -r /tmp/build_4a03d116ac7fd3497561eb06a07a5a88/requirements.txt (line 7))
+remote:          Downloading itsdangerous-0.24.tar.gz (46kB)
+remote:        Collecting Jinja2==2.9.6 (from -r /tmp/build_4a03d116ac7fd3497561eb06a07a5a88/requirements.txt (line 8))
+remote:          Downloading Jinja2-2.9.6-py2.py3-none-any.whl (340kB)
+remote:        Collecting MarkupSafe==1.0 (from -r /tmp/build_4a03d116ac7fd3497561eb06a07a5a88/requirements.txt (line 9))
+remote:          Downloading MarkupSafe-1.0.tar.gz
+remote:        Collecting pymessenger==0.0.7.0 (from -r /tmp/build_4a03d116ac7fd3497561eb06a07a5a88/requirements.txt (line 10))
+remote:          Downloading pymessenger-0.0.7.0.tar.gz
+remote:        Collecting requests==2.18.4 (from -r /tmp/build_4a03d116ac7fd3497561eb06a07a5a88/requirements.txt (line 11))
+remote:          Downloading requests-2.18.4-py2.py3-none-any.whl (88kB)
+remote:        Collecting requests-toolbelt==0.8.0 (from -r /tmp/build_4a03d116ac7fd3497561eb06a07a5a88/requirements.txt (line 12))
+remote:          Downloading requests_toolbelt-0.8.0-py2.py3-none-any.whl (54kB)
+remote:        Collecting six==1.11.0 (from -r /tmp/build_4a03d116ac7fd3497561eb06a07a5a88/requirements.txt (line 13))
+remote:          Downloading six-1.11.0-py2.py3-none-any.whl
+remote:        Collecting urllib3==1.22 (from -r /tmp/build_4a03d116ac7fd3497561eb06a07a5a88/requirements.txt (line 14))
+remote:          Downloading urllib3-1.22-py2.py3-none-any.whl (132kB)
+remote:        Collecting Werkzeug==0.12.2 (from -r /tmp/build_4a03d116ac7fd3497561eb06a07a5a88/requirements.txt (line 15))
+remote:          Downloading Werkzeug-0.12.2-py2.py3-none-any.whl (312kB)
+remote:        Installing collected packages: certifi, chardet, click, Werkzeug, itsdangerous, MarkupSafe, Jinja2, Flask, gunicorn, idna, urllib3, requests, requests-toolbelt, six, pymessenger
+remote:          Running setup.py install for itsdangerous: started
+remote:            Running setup.py install for itsdangerous: finished with status 'done'
+remote:          Running setup.py install for MarkupSafe: started
+remote:            Running setup.py install for MarkupSafe: finished with status 'done'
+remote:          Running setup.py install for pymessenger: started
+remote:            Running setup.py install for pymessenger: finished with status 'done'
+remote:        Successfully installed Flask-0.12.2 Jinja2-2.9.6 MarkupSafe-1.0 Werkzeug-0.12.2 certifi-2017.7.27.1 chardet-3.0.4 click-6.7 gunicorn-19.7.1 idna-2.6 itsdangerous-0.24 pymessenger-0.0.7.0 requests-2.18.4 requests-toolbelt-0.8.0 six-1.11.0 urllib3-1.22
+remote:
+remote: -----> Discovering process types
+remote:        Procfile declares types -> web
+remote:
+remote: -----> Compressing...
+remote:        Done: 44M
+remote: -----> Launching...
+remote:        Released v3
+remote:        https://rocky-thicket-15411.herokuapp.com/ deployed to Heroku
+remote:
+remote: Verifying deploy.... done.
+
+
